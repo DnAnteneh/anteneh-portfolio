@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(2,22,39);
+    color: white;
+    font-family: "Kanit", sans-serif;
+    letter-spacing: 0.1em;
+}
+
+.btn-more {
+    padding: 15px 32px;
+    background-color: rgb(100, 205, 247);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border: 6px solid rgb(2,22,39);
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn-more:hover {
+    background-color: rgb(2,22,39);
+    border: 6px solid rgb(100, 205, 247);
+    color: rgb(100, 205, 247)   ;
+}

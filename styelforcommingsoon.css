@@ -1,0 +1,34 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Center the content */
+  html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(2,22,39); 
+    color: white;/* Light gray background */
+  }
+  
+  /* Style for the 'Coming Soon' heading */
+  #coming-soon-heading {
+    font-size: 4em; /* Adjust the font size as needed */
+    text-align: center;
+    color: rgb(173, 150, 2); /* Dark gray text color */
+    font-family: Arial, sans-serif; /* Choose your preferred font */
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style for the icon */
+  #coming-soon-heading::before {
+    content: "\26A1"; /* Unicode for lightning bolt icon */
+    font-size: 0.8em; /* Adjust icon size relative to text */
+    margin-right: 0.5em; /* Space between icon and text */
+  }
+  
